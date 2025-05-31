@@ -1,0 +1,19 @@
+input_filepath: "jeeadv2025-bench.json"
+output_filepath: "./results/jeeadv2025_benchmark_results_r1_0528.json"
+dbfilepath: "db/benchmark_results.db"
+dotenv_filepath: "~/.env"
+max_questions: null
+
+solver_model_params:
+  model: "openrouter/deepseek/deepseek-r1-0528:free"
+  temperature: 0.3
+  max_tokens: 32000
+  num_retries: 1
+
+grader_model_params:
+  model: "gemini/gemini-2.0-flash-lite"
+  temperature: 0.1
+  num_retries: 2
+
+
+

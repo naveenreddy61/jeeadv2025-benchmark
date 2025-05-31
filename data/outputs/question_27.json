@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "total_files_processed": 1,
+    "successful_extractions": 1,
+    "failed_extractions": 0,
+    "total_questions_extracted": 1,
+    "total_usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0
+    },
+    "input_folder": "C:\\Users\\reddyb\\Documents\\personal_projects\\jee25_solutions\\question-27",
+    "output_file": "C:\\Users\\reddyb\\Documents\\personal_projects\\jee25_solutions\\outputs\\question_27.json",
+    "processing_timestamp": "2025-05-28T16:33:50.829423",
+    "model_used": "openai/gpt-4o-mini",
+    "supported_extensions": [
+      ".jpg",
+      ".png",
+      ".webp",
+      ".jpeg",
+      ".tiff",
+      ".bmp",
+      ".gif"
+    ]
+  },
+  "results": [
+    {
+      "file_name": "p1_solutions-images-27.jpg",
+      "file_path": "p1_solutions-images-27.jpg",
+      "processing_status": "success",
+      "section_instructions": {
+        "rules": null,
+        "section": null
+      },
+      "questions": [
+        {
+          "subject": "chemistry",
+          "question_number": 13,
+          "question_text": "The reaction sequence given below is carried out with 16 moles of X. The yield of the major product in each step is given below the product in parentheses. The amount (in grams) of S produced is ______.\n\nBr\n\no\nX\n\n(i) Na, dry ether  (ii) H3O+  \n\n(i) NaOH, Δ  (i) NaOH, CaO  \n\nP  Q  R  T\n\nMolar mass 210  (50 %)  (50 %)  (50 %)  (50 %)\n\nR\n\nNaH, (C2H5)2O\n\nS  (50 %)",
+          "question_figure_description": "The provided image illustrates a multi-step organic reaction sequence beginning with compound X, identified as 1,4-dibromobutane-1,4-dione, depicted as an eight-membered cyclic structure containing two bromine atoms and two carbonyl groups. The transformation of X to P involves (i) Na and dry ether, followed by (ii) H3O+, with P having a molar mass of 210. Subsequently, P is converted to Q via (i) NaOH and Delta, with a 50% yield. Q then reacts to form R through treatment with (i) NaOH and CaO, also with a 50% yield. From R, two pathways diverge: one leads to T upon reaction with PBr3 in (C2H5)2O (50% yield), and the other forms S by reaction with NaH in (C2H5)2O (50% yield). The problem specifies that 16 moles of X are used and asks for the amount of S produced in grams. Atomic masses for calculations are provided: H = 1, C = 12, O = 16, and Br = 80. ",
+          "answer_text": "175"
+        }
+      ],
+      "questions_count": 1,
+      "usage": {
+        "openai/gpt-4o-mini": {
+          "completion_tokens": 201,
+          "prompt_tokens": 37567,
+          "total_tokens": 37768,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0,
+            "text_tokens": null
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0,
+            "text_tokens": null,
+            "image_tokens": null
+          }
+        }
+      },
+      "processing_timestamp": "2025-05-28T16:33:50.829423"
+    }
+  ]
+}

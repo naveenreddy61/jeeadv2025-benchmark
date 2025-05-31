@@ -1,0 +1,930 @@
+{
+  "metadata": {
+    "total_files_processed": 21,
+    "successful_extractions": 21,
+    "failed_extractions": 0,
+    "total_questions_extracted": 48,
+    "total_usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "total_tokens": 0
+    },
+    "input_folder": "C:\\Users\\reddyb\\Documents\\personal_projects\\jee25_solutions\\question-paper-2",
+    "output_file": "C:\\Users\\reddyb\\Documents\\personal_projects\\jee25_solutions\\outputs\\paper_2.json",
+    "processing_timestamp": "2025-05-28T16:11:39.139261",
+    "model_used": "gemini/gemini-2.0-flash",
+    "supported_extensions": [
+      ".jpeg",
+      ".tiff",
+      ".bmp",
+      ".png",
+      ".webp",
+      ".gif",
+      ".jpg"
+    ]
+  },
+  "results": [
+    {
+      "file_name": "p2_solutions-images-0.jpg",
+      "file_path": "p2_solutions-images-0.jpg",
+      "processing_status": "success",
+      "section_instructions": {
+        "rules": "This section contains FOUR (04) questions.\nEach question has FOUR options (A), (B), (C) and (D). ONLY ONE of these four options is the correct\nanswer.\nFor each question, choose the option corresponding to the correct answer.\nAnswer to each question will be evaluated according to the following marking scheme:\nFull Marks : +3 If ONLY the correct option is chosen;\nZero Marks : 0 If none of the options is chosen (i.e. the question is unanswered);\nNegative Marks: -1 In all other cases.",
+        "section": 1
+      },
+      "questions": [
+        {
+          "subject": "mathematics",
+          "question_number": 1,
+          "question_text": "Let $x_0$ be the real number such that $e^{x_0} + x_0 = 0$. For a given real number $\\alpha$, define\n\n$g(x) = \\frac{3xe^x + 3x - \\alpha e^x - \\alpha x}{3(e^x + 1)}$\n\nfor all real numbers $x$.\n\nThen which one of the following statements is TRUE?\n\n(A) For $\\alpha = 2$, $\\lim_{x \\to x_0} |\\frac{g(x) + e^{x_0}}{x - x_0}| = 0$\n\n(B) For $\\alpha = 2$, $\\lim_{x \\to x_0} |\\frac{g(x) + e^{x_0}}{x - x_0}| = 1$\n\n(C) For $\\alpha = 3$, $\\lim_{x \\to x_0} |\\frac{g(x) + e^{x_0}}{x - x_0}| = 0$\n\n(D) For $\\alpha = 3$, $\\lim_{x \\to x_0} |\\frac{g(x) + e^{x_0}}{x - x_0}| = \\frac{2}{3}",
+          "question_figure_description": null,
+          "answer_text": "C"
+        },
+        {
+          "subject": "mathematics",
+          "question_number": 2,
+          "question_text": "Let $\\mathbb{R}$ denote the set of all real numbers. Then the area of the region\n\n${(x, y) \\in \\mathbb{R} \\times \\mathbb{R} : x > 0, y > \\frac{1}{x}, 5x - 4y - 1 > 0, 4x + 4y - 17 < 0}$ is\n\n(A) $\\frac{17}{16} - \\log_e 4$\n\n(B) $\\frac{33}{8} - \\log_e 4$\n\n(C) $\\frac{57}{8} - \\log_e 4$\n\n(D) $\\frac{17}{2} - \\log_e 4$",
+          "question_figure_description": null,
+          "answer_text": "B"
+        }
+      ],
+      "questions_count": 2,
+      "usage": {
+        "gemini/gemini-2.0-flash": {
+          "completion_tokens": 764,
+          "prompt_tokens": 4085,
+          "total_tokens": 4849,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cached_tokens": null,
+            "text_tokens": 731,
+            "image_tokens": null
+          }
+        }
+      },
+      "processing_timestamp": "2025-05-28T16:08:39.743160"
+    },
+    {
+      "file_name": "p2_solutions-images-1.jpg",
+      "file_path": "p2_solutions-images-1.jpg",
+      "processing_status": "success",
+      "section_instructions": {
+        "rules": null,
+        "section": null
+      },
+      "questions": [
+        {
+          "subject": "mathematics",
+          "question_number": 3,
+          "question_text": "The total number of real solutions of the equation\n\n$\\theta = \\tan^{-1}(2 \\tan \\theta) - \\frac{1}{2} \\sin^{-1}(\\frac{6 \\tan \\theta}{9 + \\tan^2 \\theta})$\n\nis\n(Here, the inverse trigonometric functions $\\sin^{-1} x$ and $\\tan^{-1} x$ assume values in $[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$ and $(-\\frac{\\pi}{2}, \\frac{\\pi}{2})$, respectively.)\n\n(A) 1\n(B) 2\n(C) 3\n(D) 5",
+          "question_figure_description": null,
+          "answer_text": "C"
+        },
+        {
+          "subject": "mathematics",
+          "question_number": 4,
+          "question_text": "Let $S$ denote the locus of the point of intersection of the pair of lines\n\n$4x - 3y = 12\\alpha$,\n$4\\alpha x + 3\\alpha y = 12$,\n\nwhere $\\alpha$ varies over the set of non-zero real numbers. Let $T$ be the tangent to $S$ passing through the points $(p, 0)$ and $(0, q)$, $q > 0$, and parallel to the line $4x - \\frac{3}{\\sqrt{2}}y = 0$.\n\nThen the value of $pq$ is\n\n(A) $-6\\sqrt{2}$\n(B) $-3\\sqrt{2}$\n(C) $-9\\sqrt{2}$\n(D) $-12\\sqrt{2}$",
+          "question_figure_description": null,
+          "answer_text": "A"
+        }
+      ],
+      "questions_count": 2,
+      "usage": {
+        "gemini/gemini-2.0-flash": {
+          "completion_tokens": 498,
+          "prompt_tokens": 4085,
+          "total_tokens": 4583,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cached_tokens": null,
+            "text_tokens": 731,
+            "image_tokens": null
+          }
+        }
+      },
+      "processing_timestamp": "2025-05-28T16:08:46.036373"
+    },
+    {
+      "file_name": "p2_solutions-images-10.jpg",
+      "file_path": "p2_solutions-images-10.jpg",
+      "processing_status": "success",
+      "section_instructions": {
+        "rules": null,
+        "section": null
+      },
+      "questions": [
+        {
+          "subject": "physics",
+          "question_number": 6,
+          "question_text": "Two identical concave mirrors each of focal length $f$ are facing each other as shown in the schematic diagram. The focal length $f$ is much larger than the size of the mirrors. A glass slab of thickness $t$ and refractive index $n_0$ is kept equidistant from the mirrors and perpendicular to their common principal axis. A monochromatic point light source $S$ is embedded at the center of the slab on the principal axis, as shown in the schematic diagram. For the image to be formed on $S$ itself, which of the following distances between the two mirrors is/are correct:\n\n(A) $4f+(1-\\frac{1}{n_0})t$\n(B) $2f+(1-\\frac{1}{n_0})t$\n(C) $4f + (n_0 - 1)t$\n(D) $2f + (n_0 - 1)t$",
+          "question_figure_description": "The diagram shows two concave mirrors facing each other with a glass slab of thickness t and refractive index n0 placed between them. A point light source S is embedded at the center of the slab.",
+          "answer_text": "A, B"
+        },
+        {
+          "subject": "physics",
+          "question_number": 7,
+          "question_text": "Six infinitely large and thin non-conducting sheets are fixed in configurations I and II. As shown in the figure, the sheets carry uniform surface charge densities which are indicated in terms of $\\sigma_0$. The separation between any two consecutive sheets is 1 $\\mu$m. The various regions between the sheets are denoted as 1, 2, 3, 4 and 5. If $\\sigma_0$ = 9 $\\mu$C/m$^2$, then which of the following statements is/are correct:\n(Take permittivity of free space $\\epsilon_0$ = 9 × 10$^{-12}$ F/m)\n\n(A) In region 4 of the configuration I, the magnitude of the electric field is zero.\n(B) In region 3 of the configuration II, the magnitude of the electric field is $\\frac{\\sigma_0}{\\epsilon_0}$.\n(C) Potential difference between the first and the last sheets of the configuration I is 5 V.\n(D) Potential difference between the first and the last sheets of the configuration II is zero.",
+          "question_figure_description": "Configuration I shows six sheets with charge densities +σ0, -σ0, +σ0, -σ0, +σ0, -σ0. Configuration II shows six sheets with charge densities +σ0/2, -σ0, +σ0, -σ0, +σ0, -σ0/2.",
+          "answer_text": "A"
+        }
+      ],
+      "questions_count": 2,
+      "usage": {
+        "gemini/gemini-2.0-flash": {
+          "completion_tokens": 701,
+          "prompt_tokens": 4085,
+          "total_tokens": 4786,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cached_tokens": null,
+            "text_tokens": 731,
+            "image_tokens": null
+          }
+        }
+      },
+      "processing_timestamp": "2025-05-28T16:08:55.515670"
+    },
+    {
+      "file_name": "p2_solutions-images-11.jpg",
+      "file_path": "p2_solutions-images-11.jpg",
+      "processing_status": "success",
+      "section_instructions": {
+        "rules": null,
+        "section": null
+      },
+      "questions": [
+        {
+          "subject": "physics",
+          "question_number": 8,
+          "question_text": "The efficiency of a Carnot engine operating with a hot reservoir kept at a temperature of 1000 K is\n0.4. It extracts 150 J of heat per cycle from the hot reservoir. The work extracted from this engine\nis being fully used to run a heat pump which has a coefficient of performance 10. The hot reservoir\nof the heat pump is at a temperature of 300 K. Which of the following statements is/are correct:\n\n(A) Work extracted from the Carnot engine in one cycle is 60 J.\n(B) Temperature of the cold reservoir of the Carnot engine is 600 K.\n(C) Temperature of the cold reservoir of the heat pump is 270 K.\n(D) Heat supplied to the hot reservoir of the heat pump in one cycle is 540 J.",
+          "question_figure_description": null,
+          "answer_text": "A, B, C"
+        }
+      ],
+      "questions_count": 1,
+      "usage": {
+        "gemini/gemini-2.0-flash": {
+          "completion_tokens": 289,
+          "prompt_tokens": 4085,
+          "total_tokens": 4374,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cached_tokens": null,
+            "text_tokens": 731,
+            "image_tokens": null
+          }
+        }
+      },
+      "processing_timestamp": "2025-05-28T16:09:00.785826"
+    },
+    {
+      "file_name": "p2_solutions-images-12.jpg",
+      "file_path": "p2_solutions-images-12.jpg",
+      "processing_status": "success",
+      "section_instructions": {
+        "rules": "This section contains EIGHT (08) questions.\nThe answer to each question is a NUMERICAL VALUE.\nFor each question, enter the correct numerical value of the answer using the mouse and the on-screen virtual numeric keypad in the place designated to enter the answer.\nIf the numerical value has more than two decimal places, truncate/round-off the value to TWO decimal places.\nAnswer to each question will be evaluated according to the following marking scheme:\nFull Marks : +4 If ONLY the correct numerical value is entered in the designated place;\nZero Marks : 0 In all other cases.",
+        "section": 3
+      },
+      "questions": [
+        {
+          "subject": "physics",
+          "question_number": 9,
+          "question_text": "A conducting solid sphere of radius R and mass M carries a charge Q. The sphere is rotating about\nan axis passing through its center with a uniform angular speed w. The ratio of the magnitudes of the\nmagnetic dipole moment to the angular momentum about the same axis is given as \\(\\alpha \\frac{Q}{2M}\\). The value\nof \\(\\alpha\\) is __________",
+          "question_figure_description": null,
+          "answer_text": "[1.65 to 1.67]"
+        },
+        {
+          "subject": "physics",
+          "question_number": 10,
+          "question_text": "A hydrogen atom, initially at rest in its ground state, absorbs a photon of frequency \\(\\nu_1\\) and ejects the\nelectron with a kinetic energy of 10 eV. The electron then combines with a positron at rest to form\na positronium atom in its ground state and simultaneously emits a photon of frequency \\(\\nu_2\\). The center\nof mass of the resulting positronium atom moves with a kinetic energy of 5 eV. It is given that\npositron has the same mass as that of electron and the positronium atom can be considered as a Bohr\natom, in which the electron and the positron orbit around their center of mass. Considering no other\nenergy loss during the whole process, the difference between the two photon energies (in eV) is __________",
+          "question_figure_description": null,
+          "answer_text": "[11.7 to 11.9]"
+        }
+      ],
+      "questions_count": 2,
+      "usage": {
+        "gemini/gemini-2.0-flash": {
+          "completion_tokens": 551,
+          "prompt_tokens": 4085,
+          "total_tokens": 4636,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cached_tokens": null,
+            "text_tokens": 731,
+            "image_tokens": null
+          }
+        }
+      },
+      "processing_timestamp": "2025-05-28T16:09:09.200395"
+    },
+    {
+      "file_name": "p2_solutions-images-13.jpg",
+      "file_path": "p2_solutions-images-13.jpg",
+      "processing_status": "success",
+      "section_instructions": {
+        "rules": null,
+        "section": null
+      },
+      "questions": [
+        {
+          "subject": "physics",
+          "question_number": 11,
+          "question_text": "An ideal monatomic gas of n moles is taken through a cycle WXYZW consisting of consecutive\nadiabatic and isobaric quasi-static processes, as shown in the schematic V-T diagram. The volume of\nthe gas at W, X and Y points are, 64 cm³, 125 cm³ and 250 cm³, respectively. If the absolute\ntemperature of the gas Tw at the point W is such that nRTw = 1 J (R is the universal gas constant),\nthen the amount of heat absorbed (in J) by the gas along the path XY is _______",
+          "question_figure_description": "V-T diagram showing a cycle WXYZW. The cycle consists of consecutive adiabatic and isobaric quasi-static processes. The volume of the gas at W, X and Y points are, 64 cm³, 125 cm³ and 250 cm³, respectively.",
+          "answer_text": "1.6"
+        },
+        {
+          "subject": "physics",
+          "question_number": 12,
+          "question_text": "A geostationary satellite above the equator is orbiting around the earth at a fixed distance r₁ from the\ncenter of the earth. A second satellite is orbiting in the equatorial plane in the opposite direction to\nthe earth's rotation, at a distance r₂ from the center of the earth, such that r₁ = 1.21 r2. The time\nperiod of the second satellite as measured from the geostationary satellite is \\(\\frac{24}{p}\\) hours. The value of p\nis _______",
+          "question_figure_description": null,
+          "answer_text": "[2.3 to 2.4]"
+        },
+        {
+          "subject": "physics",
+          "question_number": 13,
+          "question_text": "The left and right compartments of a thermally isolated container of length L are separated by a\nthermally conducting, movable piston of area A. The left and right compartments are filled with \\(\\frac{3}{2}\\)\nand 1 moles of an ideal gas, respectively. In the left compartment the piston is attached by a spring\nwith spring constant k and natural length \\(\\frac{2L}{5}\\). In thermodynamic equilibrium, the piston is at a distance\n\\(\\frac{L}{2}\\) from the left and right edges of the container as shown in the figure. Under the above conditions, if\nthe pressure in the right compartment is \\(P = \\frac{kL}{A} \\alpha\\), then the value of \\(\\alpha\\) is _______",
+          "question_figure_description": "A rectangular container of length L is divided into two compartments by a movable piston. The left compartment has a spring attached to the piston. The length of the left compartment is L/2.",
+          "answer_text": "0.2"
+        }
+      ],
+      "questions_count": 3,
+      "usage": {
+        "gemini/gemini-2.0-flash": {
+          "completion_tokens": 726,
+          "prompt_tokens": 4085,
+          "total_tokens": 4811,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cached_tokens": null,
+            "text_tokens": 731,
+            "image_tokens": null
+          }
+        }
+      },
+      "processing_timestamp": "2025-05-28T16:09:17.322167"
+    },
+    {
+      "file_name": "p2_solutions-images-14.jpg",
+      "file_path": "p2_solutions-images-14.jpg",
+      "processing_status": "success",
+      "section_instructions": {
+        "rules": null,
+        "section": null
+      },
+      "questions": [
+        {
+          "subject": "physics",
+          "question_number": 14,
+          "question_text": "In a Young's double slit experiment, a combination of two glass wedges A and B, having refractive\nindices 1.7 and 1.5, respectively, are placed in front of the slits, as shown in the figure. The separation\nbetween the slits is $d = 2$ mm and the shortest distance between the slits and the screen is $D = 2$ m.\nThickness of the combination of the wedges is $t = 12 \\mu m$. The value of $l$ as shown in the figure is 1\nmm. Neglect any refraction effect at the slanted interface of the wedges. Due to the combination of\nthe wedges, the central maximum shifts (in mm) with respect to O by _______",
+          "question_figure_description": "The figure shows two glass wedges A and B placed in front of two slits. The separation between the slits is d, the shortest distance between the slits and the screen is D, the thickness of the combination of the wedges is t, and the value of l is shown in the figure.",
+          "answer_text": "1.2"
+        },
+        {
+          "subject": "physics",
+          "question_number": 15,
+          "question_text": "A projectile of mass 200 g is launched in a viscous medium at an angle 60° with the horizontal, with\nan initial velocity of 270 m/s. It experiences a viscous drag force $\\vec{F} = -c\\vec{v}$ where the drag coefficient\n$c = 0.1$ kg/s and $\\vec{v}$ is the instantaneous velocity of the projectile. The projectile hits a vertical wall\nafter 2 s. Taking $e = 2.7$, the horizontal distance of the wall from the point of projection (in m) is _______",
+          "question_figure_description": null,
+          "answer_text": "[167 to 171]"
+        },
+        {
+          "subject": "physics",
+          "question_number": 16,
+          "question_text": "An audio transmitter (T) and a receiver (R) are hung vertically from two identical massless strings of\nlength 8 m with their pivots well separated along the X axis. They are pulled from the equilibrium\nposition in opposite directions along the X axis by a small angular amplitude\n$\\theta_0 = cos^{-1}(0.9)$ and released simultaneously. If the natural frequency of the transmitter is 660 Hz\nand the speed of sound in air is 330 m/s, the maximum variation in the frequency (in Hz) as measured\nby the receiver (Take the acceleration due to gravity $g = 10$ m/s$^2$) is _______",
+          "question_figure_description": "The figure shows an audio transmitter (T) and a receiver (R) hung vertically from two identical massless strings of length 8 m. They are pulled from the equilibrium position in opposite directions along the X axis by a small angular amplitude θ0.",
+          "answer_text": "[26 to 33]"
+        }
+      ],
+      "questions_count": 3,
+      "usage": {
+        "gemini/gemini-2.0-flash": {
+          "completion_tokens": 763,
+          "prompt_tokens": 4085,
+          "total_tokens": 4848,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cached_tokens": null,
+            "text_tokens": 731,
+            "image_tokens": null
+          }
+        }
+      },
+      "processing_timestamp": "2025-05-28T16:09:26.947039"
+    },
+    {
+      "file_name": "p2_solutions-images-15.jpg",
+      "file_path": "p2_solutions-images-15.jpg",
+      "processing_status": "success",
+      "section_instructions": {
+        "rules": "This section contains FOUR (04) questions.\nEach question has FOUR options (A), (B), (C) and (D). ONLY ONE of these four options is the correct\nanswer.\nFor each question, choose the option corresponding to the correct answer.\nAnswer to each question will be evaluated according to the following marking scheme:\nFull Marks : +3 If ONLY the correct option is chosen;\nZero Marks : 0 If none of the options is chosen (i.e. the question is unanswered);\nNegative Marks: -1 In all other cases.",
+        "section": 1
+      },
+      "questions": [
+        {
+          "subject": "chemistry",
+          "question_number": 1,
+          "question_text": "During sodium nitroprusside test of sulphide ion in an aqueous solution, one of the ligands\ncoordinated to the metal ion is converted to\n(A) NOS-\n(B) SCN-\n(C) SNO\n(D) NCS-",
+          "question_figure_description": null,
+          "answer_text": "A"
+        },
+        {
+          "subject": "chemistry",
+          "question_number": 2,
+          "question_text": "The complete hydrolysis of ICl, ClF3 and BrF5, respectively, gives\n(A) IO-, ClO2- and BrO3-\n(B) IO3-, ClO2- and BrO3-\n(C) IO-, ClO- and BrO2-\n(D) IO3-, ClO4- and BrO2-",
+          "question_figure_description": null,
+          "answer_text": "A"
+        }
+      ],
+      "questions_count": 2,
+      "usage": {
+        "gemini/gemini-2.0-flash": {
+          "completion_tokens": 410,
+          "prompt_tokens": 4085,
+          "total_tokens": 4495,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cached_tokens": null,
+            "text_tokens": 731,
+            "image_tokens": null
+          }
+        }
+      },
+      "processing_timestamp": "2025-05-28T16:09:34.426191"
+    },
+    {
+      "file_name": "p2_solutions-images-16.jpg",
+      "file_path": "p2_solutions-images-16.jpg",
+      "processing_status": "success",
+      "section_instructions": {
+        "rules": null,
+        "section": null
+      },
+      "questions": [
+        {
+          "subject": "chemistry",
+          "question_number": 3,
+          "question_text": "Monocyclic compounds P, Q, R and S are the major products formed in the reaction sequences given below.\n\n[Reaction schemes for P, Q, R, and S are shown]\n\nThe product having the highest number of unsaturated carbon atom(s) is\n(A) P\n(B) Q\n(C) R\n(D) S",
+          "question_figure_description": null,
+          "answer_text": "D"
+        },
+        {
+          "subject": "chemistry",
+          "question_number": 4,
+          "question_text": "The correct reaction/reaction sequence that would produce a dicarboxylic acid as the major product is\n\n[Reaction schemes for options A, B, C, and D are shown]",
+          "question_figure_description": null,
+          "answer_text": "C"
+        }
+      ],
+      "questions_count": 2,
+      "usage": {
+        "gemini/gemini-2.0-flash": {
+          "completion_tokens": 249,
+          "prompt_tokens": 4085,
+          "total_tokens": 4334,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cached_tokens": null,
+            "text_tokens": 731,
+            "image_tokens": null
+          }
+        }
+      },
+      "processing_timestamp": "2025-05-28T16:09:39.837776"
+    },
+    {
+      "file_name": "p2_solutions-images-17.jpg",
+      "file_path": "p2_solutions-images-17.jpg",
+      "processing_status": "success",
+      "section_instructions": {
+        "rules": "This section contains FOUR (04) questions.\nEach question has FOUR options (A), (B), (C) and (D). ONE OR MORE THAN ONE of these four\noption(s) is (are) correct answer(s).\nFor each question, choose the option(s) corresponding to (all) the correct answer(s).\nAnswer to each question will be evaluated according to the following marking scheme:\nFull Marks : +4 ONLY if (all) the correct option(s) is (are) chosen;\nPartial Marks : +3 If all the four options are correct but ONLY three options are chosen;\nPartial Marks : +2 If three or more options are correct but ONLY two options are chosen, both of\nwhich are correct;\nPartial Marks : +1 If two or more options are correct but ONLY one option is chosen and it is a\ncorrect option;\nZero Marks : 0 If none of the options is chosen (i.e. the question is unanswered);\nNegative Marks: -2 In all other cases.\nFor example, in a question, if (A), (B) and (D) are the ONLY three options corresponding to correct\nanswers, then\nchoosing ONLY (A), (B) and (D) will get +4 marks;\nchoosing ONLY (A) and (B) will get +2 marks;\nchoosing ONLY (A) and (D) will get +2 marks;\nchoosing ONLY (B) and (D) will get +2 marks;\nchoosing ONLY (A) will get +1 mark;\nchoosing ONLY (B) will get +1 mark;\nchoosing ONLY (D) will get +1 mark;\nchoosing no option (i.e. the question is unanswered) will get 0 marks; and\nchoosing any other combination of options will get -2 marks.",
+        "section": 2
+      },
+      "questions": [
+        {
+          "subject": "chemistry",
+          "question_number": 5,
+          "question_text": "The correct statement(s) about intermolecular forces is(are)\n\n(A) The potential energy between two point charges approaches zero more rapidly than the\npotential energy between a point dipole and a point charge as the distance between them\napproaches infinity.\n\n(B) The average potential energy of two rotating polar molecules that are separated by a distance\nr has 1/r³ dependence.\n\n(C) The dipole-induced dipole average interaction energy is independent of temperature.\n\n(D) Nonpolar molecules attract one another even though neither has a permanent dipole moment.",
+          "question_figure_description": null,
+          "answer_text": "C, D"
+        },
+        {
+          "subject": "chemistry",
+          "question_number": 6,
+          "question_text": "The compound(s) with P–H bond(s) is(are)\n\n(A) H3PO4\n\n(B) H3PO3\n\n(C) H4P2O7\n\n(D) H3PO2",
+          "question_figure_description": null,
+          "answer_text": "B, D"
+        }
+      ],
+      "questions_count": 2,
+      "usage": {
+        "gemini/gemini-2.0-flash": {
+          "completion_tokens": 721,
+          "prompt_tokens": 4085,
+          "total_tokens": 4806,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cached_tokens": null,
+            "text_tokens": 731,
+            "image_tokens": null
+          }
+        }
+      },
+      "processing_timestamp": "2025-05-28T16:09:47.952498"
+    },
+    {
+      "file_name": "p2_solutions-images-18.jpg",
+      "file_path": "p2_solutions-images-18.jpg",
+      "processing_status": "success",
+      "section_instructions": {
+        "rules": null,
+        "section": null
+      },
+      "questions": [
+        {
+          "subject": "chemistry",
+          "question_number": 7,
+          "question_text": "For the reaction sequence given below, the correct statement(s) is(are)\n\n(i) $KMnO_4$, $H^+$, $\\Delta$\n(ii) $NH_3$, $\\Delta$, -2$H_2O$\n$\\longrightarrow$ X $\\xrightarrow{\\text{(i) Strong heating} \\\\ \\text{(ii) Ethanolic KOH} \\\\ \\text{(iii) R-Br}}$ Y $\\xrightarrow{NaOH}$ Aromatic compound + Z\n\n(A) Both X and Y are oxygen containing compounds.\n(B) Y on heating with $CHCl_3$/KOH forms isocyanide.\n(C) Z reacts with Hinsberg's reagent.\n(D) Z is an aromatic primary amine.",
+          "question_figure_description": "The question shows a reaction sequence starting with a benzene ring with a double bond. The benzene ring reacts with (i) $KMnO_4$, $H^+$, $\\Delta$ and (ii) $NH_3$, $\\Delta$, -2$H_2O$ to form compound X. Compound X reacts with (i) Strong heating, (ii) Ethanolic KOH, and (iii) R-Br to form compound Y. Compound Y reacts with NaOH to form Aromatic compound + Z.",
+          "answer_text": "A, C"
+        },
+        {
+          "subject": "chemistry",
+          "question_number": 8,
+          "question_text": "For the reaction sequence given below, the correct statement(s) is(are)\n\n\n$\\xrightarrow{LiAlH_4}$ P $\\xrightarrow{CrO_3-H_2SO_4}$ Q $\\xrightarrow{NaOH \\text{ and } CaO, \\Delta}$ R\n\nPh\n\n$\\xrightarrow{H_2SO_4, 443 K}$ S\n\n(A) P is optically active.\n(B) S gives Bayer's test.\n(C) Q gives effervescence with aq. $NaHCO_3$.\n(D) R is an alkyne.",
+          "question_figure_description": "The question shows a reaction sequence starting with a cyclic ester with a phenyl group attached to the ring. The cyclic ester reacts with $LiAlH_4$ to form compound P. Compound P reacts with $CrO_3-H_2SO_4$ to form compound Q. Compound Q reacts with $NaOH \\text{ and } CaO, \\Delta$ to form compound R. Compound P also reacts with $H_2SO_4, 443 K$ to form compound S.",
+          "answer_text": "B, C"
+        }
+      ],
+      "questions_count": 2,
+      "usage": {
+        "gemini/gemini-2.0-flash": {
+          "completion_tokens": 681,
+          "prompt_tokens": 4085,
+          "total_tokens": 4766,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cached_tokens": null,
+            "text_tokens": 731,
+            "image_tokens": null
+          }
+        }
+      },
+      "processing_timestamp": "2025-05-28T16:09:56.799072"
+    },
+    {
+      "file_name": "p2_solutions-images-19.jpg",
+      "file_path": "p2_solutions-images-19.jpg",
+      "processing_status": "success",
+      "section_instructions": {
+        "rules": "This section contains EIGHT (08) questions.\nThe answer to each question is a NUMERICAL VALUE.\nFor each question, enter the correct numerical value of the answer using the mouse and the on-\nscreen virtual numeric keypad in the place designated to enter the answer.\nIf the numerical value has more than two decimal places, truncate/round-off the value to TWO\ndecimal places.\nAnswer to each question will be evaluated according to the following marking scheme:\nFull Marks : +4 If ONLY the correct numerical value is entered in the designated place;\nZero Marks\n: 0 In all other cases.",
+        "section": 3
+      },
+      "questions": [
+        {
+          "subject": "chemistry",
+          "question_number": 9,
+          "question_text": "The density (in gcm\\u207b\\u00b3) of the metal which forms a cubic close packed (ccp) lattice with an axial\ndistance (edge length) equal to 400 pm is __________.\n\nUse: Atomic mass of metal = 105.6 amu and Avogadro's constant = 6 × 10\\u00b2\\u00b3 mol\\u207b\\u00b9",
+          "question_figure_description": null,
+          "answer_text": "[10.85 to 11.1]"
+        },
+        {
+          "subject": "chemistry",
+          "question_number": 10,
+          "question_text": "The solubility of barium iodate in an aqueous solution prepared by mixing 200 mL of 0.010 M\nbarium nitrate with 100 mL of 0.10 M sodium iodate is $X \\times 10^{-6}$ mol dm\\u207b\\u00b3. The value of $X$ is __________.\n\nUse: Solubility product constant ($K_{sp}$) of barium iodate = 1.58 × 10\\u207b\\u00b9",
+          "question_figure_description": null,
+          "answer_text": "[3.85 to 4.15]"
+        },
+        {
+          "subject": "chemistry",
+          "question_number": 11,
+          "question_text": "Adsorption of phenol from its aqueous solution on to fly ash obeys Freundlich isotherm. At a given\ntemperature, from 10 mg g\\u207b\\u00b9 and 16 mg g\\u207b\\u00b9 aqueous phenol solutions, the concentrations of\nadsorbed phenol are measured to be 4 mg g\\u207b\\u00b9 and 10 mg g\\u207b\\u00b9, respectively. At this temperature, the\nconcentration (in mg g\\u207b\\u00b9) of adsorbed phenol from 20 mg g\\u207b\\u00b9 aqueous solution of phenol will be __________.\n\nUse: $\\log_{10} 2 = 0.3$",
+          "question_figure_description": null,
+          "answer_text": "[15.5 to 16.5]"
+        },
+        {
+          "subject": "chemistry",
+          "question_number": 12,
+          "question_text": "Consider a reaction $A + R \\rightarrow Product$. The rate of this reaction is measured to be $k[A][R]$. At the\nstart of the reaction, the concentration of $R$, $[R]_0$, is 10-times the concentration of $A$, $[A]_0$. The\nreaction can be considered to be a pseudo first order reaction with assumption that $k[R] = k'$ is\nconstant. Due to this assumption, the relative error (in %) in the rate when this reaction is 40 %\ncomplete, is __________.\n[k and k' represent corresponding rate constants]",
+          "question_figure_description": null,
+          "answer_text": "[4 to 4.25]"
+        }
+      ],
+      "questions_count": 4,
+      "usage": {
+        "gemini/gemini-2.0-flash": {
+          "completion_tokens": 982,
+          "prompt_tokens": 4085,
+          "total_tokens": 5067,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cached_tokens": null,
+            "text_tokens": 731,
+            "image_tokens": null
+          }
+        }
+      },
+      "processing_timestamp": "2025-05-28T16:10:06.269163"
+    },
+    {
+      "file_name": "p2_solutions-images-2.jpg",
+      "file_path": "p2_solutions-images-2.jpg",
+      "processing_status": "success",
+      "section_instructions": {
+        "rules": "This section contains FOUR (04) questions.\nEach question has FOUR options (A), (B), (C) and (D). ONE OR MORE THAN ONE of these four\noption(s) is (are) correct answer(s).\nFor each question, choose the option(s) corresponding to (all) the correct answer(s).\nAnswer to each question will be evaluated according to the following marking scheme:\nFull Marks\n: +4 ONLY if (all) the correct option(s) is (are) chosen;\nPartial Marks : +3 If all the four options are correct but ONLY three options are chosen;\nPartial Marks : +2 If three or more options are correct but ONLY two options are chosen, both of\nwhich are correct;\nPartial Marks : +1 If two or more options are correct but ONLY one option is chosen and it is a\ncorrect option;\nZero Marks\n: 0 If none of the options is chosen (i.e. the question is unanswered);\nNegative Marks: -2 In all other cases.\nFor example, in a question, if (A), (B) and (D) are the ONLY three options corresponding to correct\nanswers, then\nchoosing ONLY (A), (B) and (D) will get +4 marks;\nchoosing ONLY (A) and (B) will get +2 marks;\nchoosing ONLY (A) and (D) will get +2 marks;\nchoosing ONLY (B) and (D) will get +2 marks;\nchoosing ONLY (A) will get +1 mark;\nchoosing ONLY (B) will get +1 mark;\nchoosing ONLY (D) will get +1 mark;\nchoosing no option (i.e. the question is unanswered) will get 0 marks; and\nchoosing any other combination of options will get -2 marks.",
+        "section": 2
+      },
+      "questions": [
+        {
+          "subject": "mathematics",
+          "question_number": 5,
+          "question_text": "Let $I = \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}$ and $P = \\begin{pmatrix} 2 & 0 \\\\ 0 & 3 \\end{pmatrix}$. Let $Q = \\begin{pmatrix} x & y \\\\ z & 4 \\end{pmatrix}$ for some non-zero real numbers x, y, and z,\nfor which there is a 2 × 2 matrix R with all entries being non-zero real numbers, such that\n$QR = RP$.\n\nThen which of the following statements is (are) TRUE?\n\n(A) The determinant of $Q-2I$ is zero\n(B) The determinant of $Q-6I$ is 12\n(C) The determinant of $Q-3I$ is 15\n(D) $yz = 2$",
+          "question_figure_description": null,
+          "answer_text": "A, B"
+        }
+      ],
+      "questions_count": 1,
+      "usage": {
+        "gemini/gemini-2.0-flash": {
+          "completion_tokens": 703,
+          "prompt_tokens": 4085,
+          "total_tokens": 4788,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cached_tokens": null,
+            "text_tokens": 731,
+            "image_tokens": null
+          }
+        }
+      },
+      "processing_timestamp": "2025-05-28T16:10:15.673396"
+    },
+    {
+      "file_name": "p2_solutions-images-20.jpg",
+      "file_path": "p2_solutions-images-20.jpg",
+      "processing_status": "success",
+      "section_instructions": {
+        "rules": null,
+        "section": null
+      },
+      "questions": [
+        {
+          "subject": "chemistry",
+          "question_number": 13,
+          "question_text": "At 300 K, an ideal dilute solution of a macromolecule exerts osmotic pressure that is expressed in\nterms of the height (h) of the solution (density = 1.00 g cm-3) where h is equal to 2.00 cm. If the\nconcentration of the dilute solution of the macromolecule is 2.00 g dm³, the molar mass of the\nmacromolecule is calculated to be X × 104 g mol-1. The value of X is ______.\nUse: Universal gas constant (R) = 8.3 J K-1 mol-1 and acceleration due to gravity (g) = 10 m s-2",
+          "question_figure_description": null,
+          "answer_text": "[2.4 to 2.55]"
+        },
+        {
+          "subject": "chemistry",
+          "question_number": 14,
+          "question_text": "An electrochemical cell is fueled by the combustion of butane at 1 bar and 298 K. Its cell potential\nis $\\frac{X}{F}$ × 103 volts, where F is the Faraday constant. The value of X is ______.\nUse: Standard Gibbs energies of formation at 298 K are: $\\Delta_fG^o_{CO_2}$ = -394 kJ mol-1; $\\Delta_fG^o_{water}$ =\n-237 kJ mol-1; $\\Delta_fG^o_{butane}$ = -18 kJ mol-1",
+          "question_figure_description": null,
+          "answer_text": "[105.4 to 105.6]"
+        },
+        {
+          "subject": "chemistry",
+          "question_number": 15,
+          "question_text": "The sum of the spin only magnetic moment values (in B.M.) of [Mn(Br)6]3- and [Mn(CN)6]3- is ______.",
+          "question_figure_description": null,
+          "answer_text": "[7.5 to 7.8]"
+        },
+        {
+          "subject": "chemistry",
+          "question_number": 16,
+          "question_text": "A linear octasaccharide (molar mass = 1024 g mol¯¹) on complete hydrolysis produces three\nmonosaccharides: ribose, 2-deoxyribose and glucose. The amount of 2-deoxyribose formed is\n58.26% (w/w) of the total amount of the monosaccharides produced in the hydrolyzed products. The\nnumber of ribose unit(s) present in one molecule of octasaccharide is ______.\nUse: Molar mass (in g mol¯¹): ribose = 150, 2-deoxyribose = 134, glucose = 180;\nAtomic mass (in amu): H = 1, O = 16",
+          "question_figure_description": null,
+          "answer_text": "2"
+        }
+      ],
+      "questions_count": 4,
+      "usage": {
+        "gemini/gemini-2.0-flash": {
+          "completion_tokens": 772,
+          "prompt_tokens": 4085,
+          "total_tokens": 4857,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cached_tokens": null,
+            "text_tokens": 731,
+            "image_tokens": null
+          }
+        }
+      },
+      "processing_timestamp": "2025-05-28T16:10:24.178071"
+    },
+    {
+      "file_name": "p2_solutions-images-3.jpg",
+      "file_path": "p2_solutions-images-3.jpg",
+      "processing_status": "success",
+      "section_instructions": {
+        "rules": null,
+        "section": null
+      },
+      "questions": [
+        {
+          "subject": "mathematics",
+          "question_number": 6,
+          "question_text": "Let $S$ denote the locus of the mid-points of those chords of the parabola $y^2 = x$, such that the area of the region enclosed between the parabola and the chord is $\\frac{4}{3}$. Let $R$ denote the region lying in the first quadrant, enclosed by the parabola $y^2 = x$, the curve $S$, and the lines $x = 1$ and $x = 4$.\nThen which of the following statements is (are) TRUE?\n(A) $(4, \\sqrt{3}) \\in S$\n(B) $(5, \\sqrt{2}) \\in S$\n(C) Area of $R$ is $\\frac{14}{3} - 2\\sqrt{3}$\n(D) Area of $R$ is $\\frac{14}{3} - \\sqrt{3}$",
+          "question_figure_description": null,
+          "answer_text": "A, C"
+        },
+        {
+          "subject": "mathematics",
+          "question_number": 7,
+          "question_text": "Let $P(x_1, y_1)$ and $Q(x_2, y_2)$ be two distinct points on the ellipse\n$\\frac{x^2}{9} + \\frac{y^2}{4} = 1$\nsuch that $y_1 > 0$, and $y_2 > 0$. Let $C$ denote the circle $x^2 + y^2 = 9$, and $M$ be the point $(3, 0)$.\nSuppose the line $x = x_1$ intersects $C$ at $R$, and the line $x = x_2$ intersects $C$ at $S$, such that the\ny-coordinates of $R$ and $S$ are positive. Let $\\angle ROM = \\frac{\\pi}{6}$ and $\\angle SOM = \\frac{\\pi}{3}$, where\n$O$ denotes the origin $(0, 0)$. Let $|XY|$ denote the length of the line segment $XY$.\nThen which of the following statements is (are) TRUE?\n(A) The equation of the line joining $P$ and $Q$ is $2x + 3y = 3 (1 + \\sqrt{3})$\n(B) The equation of the line joining $P$ and $Q$ is $2x + y = 3 (1 + \\sqrt{3})$\n(C) If $N_2 = (x_2, 0)$, then $3 |N_2Q| = 2 |N_2S|$\n(D) If $N_1 = (x_1, 0)$, then $9 |N_1P| = 4 |N_1R|$",
+          "question_figure_description": null,
+          "answer_text": "A, C"
+        },
+        {
+          "subject": "mathematics",
+          "question_number": 8,
+          "question_text": "Let $\\mathbb{R}$ denote the set of all real numbers. Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ be defined by\n$f(x) = \\begin{cases}\n\\frac{6x + \\sin x}{2x + \\sin x} & \\text{if } x \\neq 0, \\\\\n\\frac{7}{3} & \\text{if } x = 0.\n\\end{cases}$\nThen which of the following statements is (are) TRUE?\n(A) The point $x = 0$ is a point of local maxima of $f$\n(B) The point $x = 0$ is a point of local minima of $f$\n(C) Number of points of local maxima of $f$ in the interval $[\\pi, 6\\pi]$ is 3\n(D) Number of points of local minima of $f$ in the interval $[2\\pi, 4\\pi]$ is 1",
+          "question_figure_description": null,
+          "answer_text": "B, C, D"
+        }
+      ],
+      "questions_count": 3,
+      "usage": {
+        "gemini/gemini-2.0-flash": {
+          "completion_tokens": 1002,
+          "prompt_tokens": 4085,
+          "total_tokens": 5087,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cached_tokens": null,
+            "text_tokens": 731,
+            "image_tokens": null
+          }
+        }
+      },
+      "processing_timestamp": "2025-05-28T16:10:34.026252"
+    },
+    {
+      "file_name": "p2_solutions-images-4.jpg",
+      "file_path": "p2_solutions-images-4.jpg",
+      "processing_status": "success",
+      "section_instructions": {
+        "rules": "This section contains EIGHT (08) questions.\nThe answer to each question is a NUMERICAL VALUE.\nFor each question, enter the correct numerical value of the answer using the mouse and the on-\nscreen virtual numeric keypad in the place designated to enter the answer.\nIf the numerical value has more than two decimal places, truncate/round-off the value to TWO\ndecimal places.\nAnswer to each question will be evaluated according to the following marking scheme:\nFull Marks\n: +4 If ONLY the correct numerical value is entered in the designated place;\nZero Marks\n: 0 In all other cases.",
+        "section": 3
+      },
+      "questions": [
+        {
+          "subject": "mathematics",
+          "question_number": 9,
+          "question_text": "Let y(x) be the solution of the differential equation\n\n$x^2 \\frac{dy}{dx} + xy = x^2 + y^2, x>\\frac{1}{e}$,\n\nsatisfying y(1) = 0. Then the value of $2 \\frac{(y(e))^2}{y(e^2)}$ is",
+          "question_figure_description": null,
+          "answer_text": "[0.7 to 0.8]"
+        },
+        {
+          "subject": "mathematics",
+          "question_number": 10,
+          "question_text": "Let $a_0, a_1, ..., a_{23}$ be real numbers such that\n\n$(1 + \\frac{2}{5}x)^{23} = \\sum_{i=0}^{23} a_ix^i$\n\nfor every real number x. Let $a_r$ be the largest among the numbers $a_j$ for $0 \\leq j \\leq 23$.\nThen the value of r is",
+          "question_figure_description": null,
+          "answer_text": "6"
+        },
+        {
+          "subject": "mathematics",
+          "question_number": 11,
+          "question_text": "A factory has a total of three manufacturing units, $M_1, M_2$, and $M_3$, which produce bulbs independent\nof each other. The units $M_1, M_2$, and $M_3$ produce bulbs in the proportions of 2:2:1, respectively. It\nis known that 20% of the bulbs produced in the factory are defective. It is also known that, of all the\nbulbs produced by $M_1$, 15% are defective. Suppose that, if a randomly chosen bulb produced in the\nfactory is found to be defective, the probability that it was produced by $M_2$ is $\\frac{2}{5}$.\n\nIf a bulb is chosen randomly from the bulbs produced by $M_3$, then the probability that it is defective\nis",
+          "question_figure_description": null,
+          "answer_text": "[0.27 to 0.33]"
+        },
+        {
+          "subject": "mathematics",
+          "question_number": 12,
+          "question_text": "Consider the vectors\n\n$\\vec{x} = \\hat{i} + 2\\hat{j} + 3\\hat{k}$,   $\\vec{y} = 2\\hat{i} + 3\\hat{j}+\\hat{k}$,   and   $\\vec{z} = 3\\hat{i} + \\hat{j} + 2\\hat{k}$.\n\nFor two distinct positive real numbers $\\alpha$ and $\\beta$, define\n\n$\\vec{X} = \\alpha\\vec{x} + \\beta\\vec{y} - \\vec{z}$,   $\\vec{Y} = \\alpha\\vec{y} + \\beta\\vec{z} - \\vec{x}$,   and   $\\vec{Z} = \\alpha\\vec{z} + \\beta\\vec{x} - \\vec{y}$.\n\nIf the vectors $\\vec{X}, \\vec{Y}$, and $\\vec{Z}$ lie in a plane, then the value of $\\alpha + \\beta - 3$ is",
+          "question_figure_description": null,
+          "answer_text": "-2"
+        }
+      ],
+      "questions_count": 4,
+      "usage": {
+        "gemini/gemini-2.0-flash": {
+          "completion_tokens": 1030,
+          "prompt_tokens": 4085,
+          "total_tokens": 5115,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cached_tokens": null,
+            "text_tokens": 731,
+            "image_tokens": null
+          }
+        }
+      },
+      "processing_timestamp": "2025-05-28T16:10:43.692993"
+    },
+    {
+      "file_name": "p2_solutions-images-5.jpg",
+      "file_path": "p2_solutions-images-5.jpg",
+      "processing_status": "success",
+      "section_instructions": {
+        "rules": null,
+        "section": null
+      },
+      "questions": [
+        {
+          "subject": "mathematics",
+          "question_number": 13,
+          "question_text": "For a non-zero complex number z, let arg(z) denote the principal argument of z, with\n$-\\pi < arg(z) \\leq \\pi$. Let $\\omega$ be the cube root of unity for which $0 < arg(\\omega) < \\pi$. Let\n$\\alpha = arg\\left(\\sum_{n=1}^{2025} (-\\omega)^n\\right)$.\nThen the value of $\\frac{3\\alpha}{\\pi}$ is __________",
+          "question_figure_description": null,
+          "answer_text": "-2"
+        },
+        {
+          "subject": "mathematics",
+          "question_number": 14,
+          "question_text": "Let $\\mathbb{R}$ denote the set of all real numbers. Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ and $g: \\mathbb{R} \\rightarrow (0,4)$ be functions defined by\n$f(x) = log_e(x^2 + 2x + 4)$, and $g(x) = \\frac{4}{1+e^{-2x}}$.\nDefine the composite function $f \\circ g^{-1}$ by $(f \\circ g^{-1}) (x) = f(g^{-1}(x))$, where $g^{-1}$ is the inverse of the function $g$.\nThen the value of the derivative of the composite function $f \\circ g^{-1}$ at $x = 2$ is __________",
+          "question_figure_description": null,
+          "answer_text": "[0.2 to 0.3]"
+        },
+        {
+          "subject": "mathematics",
+          "question_number": 15,
+          "question_text": "Let\n$\\alpha = \\frac{1}{sin 60^\\circ sin 61^\\circ} + \\frac{1}{sin 62^\\circ sin 63^\\circ} + ... + \\frac{1}{sin 118^\\circ sin 119^\\circ}$.\nThen the value of $\\left(\\frac{cosec 1^\\circ}{\\alpha}\\right)^2$ is __________",
+          "question_figure_description": null,
+          "answer_text": "3"
+        },
+        {
+          "subject": "mathematics",
+          "question_number": 16,
+          "question_text": "If $\\alpha = \\int_{\\frac{1}{2}}^2 \\frac{tan^{-1} x}{2x^2 - 3x + 2} dx$,\nthen the value of $\\sqrt{7} tan\\left(\\frac{2\\alpha \\sqrt{7}}{\\pi}\\right)$ is __________\n(Here, the inverse trigonometric function $tan^{-1} x$ assumes values in $(-\\frac{\\pi}{2}, \\frac{\\pi}{2})$.)",
+          "question_figure_description": null,
+          "answer_text": "21"
+        }
+      ],
+      "questions_count": 4,
+      "usage": {
+        "gemini/gemini-2.0-flash": {
+          "completion_tokens": 724,
+          "prompt_tokens": 4085,
+          "total_tokens": 4809,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cached_tokens": null,
+            "text_tokens": 731,
+            "image_tokens": null
+          }
+        }
+      },
+      "processing_timestamp": "2025-05-28T16:10:52.853863"
+    },
+    {
+      "file_name": "p2_solutions-images-6.jpg",
+      "file_path": "p2_solutions-images-6.jpg",
+      "processing_status": "success",
+      "section_instructions": {
+        "rules": "This section contains FOUR (04) questions.\nEach question has FOUR options (A), (B), (C) and (D). ONLY ONE of these four options is the correct\nanswer.\nFor each question, choose the option corresponding to the correct answer.\nAnswer to each question will be evaluated according to the following marking scheme:\nFull Marks : +3 If ONLY the correct option is chosen;\nZero Marks : 0 If none of the options is chosen (i.e. the question is unanswered);\nNegative Marks: -1 In all other cases.",
+        "section": 1
+      },
+      "questions": [],
+      "questions_count": 0,
+      "usage": {
+        "gemini/gemini-2.0-flash": {
+          "completion_tokens": 167,
+          "prompt_tokens": 4085,
+          "total_tokens": 4252,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cached_tokens": null,
+            "text_tokens": 731,
+            "image_tokens": null
+          }
+        }
+      },
+      "processing_timestamp": "2025-05-28T16:10:58.483530"
+    },
+    {
+      "file_name": "p2_solutions-images-7.jpg",
+      "file_path": "p2_solutions-images-7.jpg",
+      "processing_status": "success",
+      "section_instructions": {
+        "rules": null,
+        "section": null
+      },
+      "questions": [
+        {
+          "subject": "physics",
+          "question_number": 1,
+          "question_text": "A temperature difference can generate e.m.f. in some materials. Let S be the e.m.f. produced per unit temperature difference between the ends of a wire, $\\sigma$ the electrical conductivity and $\\kappa$ the thermal conductivity of the material of the wire. Taking M, L, T, I and K as dimensions of mass, length, time, current and temperature, respectively, the dimensional formula of the quantity $Z = \\frac{S^2 \\sigma}{\\kappa}$ is:\n(A) $[M^0L^0T^0I^0K^0]$\n(B) $[M^0L^0T^0I^0K^{-1}]$\n(C) $[M^1L^2T^{-2}I^{-1}K^{-1}]$\n(D) $[M^1L^2T^{-4}I^{-1}K^{-1}]$",
+          "question_figure_description": null,
+          "answer_text": "[M^0L^0T^0I^0K^{-1}]"
+        },
+        {
+          "subject": "physics",
+          "question_number": 2,
+          "question_text": "Two co-axial conducting cylinders of same length $l$ with radii $\\sqrt{2}R$ and $2R$ are kept, as shown in Fig. 1. The charge on the inner cylinder is $Q$ and the outer cylinder is grounded. The annular region between the cylinders is filled with a material of dielectric constant $\\kappa = 5$. Consider an imaginary plane of the same length $l$ at a distance $R$ from the common axis of the cylinders. This plane is parallel to the axis of the cylinders. The cross-sectional view of this arrangement is shown in Fig. 2. Ignoring edge effects, the flux of the electric field through the plane is ($\\epsilon_0$ is the permittivity of free space):\n\n(A) $\\frac{Q}{30\\epsilon_0}$\n(B) $\\frac{Q}{15\\epsilon_0}$\n(C) $\\frac{Q}{60\\epsilon_0}$\n(D) $\\frac{Q}{120\\epsilon_0}$",
+          "question_figure_description": "Fig. 1 shows two co-axial cylinders with the inner cylinder having a radius of $\\sqrt{2}R$ and the outer cylinder having a radius of $2R$. The length of both cylinders is $l$. Fig. 2 shows a cross-sectional view of the cylinders, with the inner cylinder having charge Q and the outer cylinder grounded. An imaginary plane is shown at a distance R from the common axis.",
+          "answer_text": "$\\frac{Q}{60\\epsilon_0}$"
+        }
+      ],
+      "questions_count": 2,
+      "usage": {
+        "gemini/gemini-2.0-flash": {
+          "completion_tokens": 680,
+          "prompt_tokens": 4085,
+          "total_tokens": 4765,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cached_tokens": null,
+            "text_tokens": 731,
+            "image_tokens": null
+          }
+        }
+      },
+      "processing_timestamp": "2025-05-28T16:11:06.658029"
+    },
+    {
+      "file_name": "p2_solutions-images-8.jpg",
+      "file_path": "p2_solutions-images-8.jpg",
+      "processing_status": "success",
+      "section_instructions": {
+        "rules": null,
+        "section": null
+      },
+      "questions": [
+        {
+          "subject": "physics",
+          "question_number": 3,
+          "question_text": "As shown in the figures, a uniform rod 00' of length $l$ is hinged at the point O and held in place vertically between two walls using two massless springs of same spring constant. The springs are connected at the midpoint and at the top-end (O') of the rod, as shown in Fig. 1 and the rod is made to oscillate by a small angular displacement. The frequency of oscillation of the rod is $f_1$. On the other hand, if both the springs are connected at the midpoint of the rod, as shown in Fig. 2 and the rod is made to oscillate by a small angular displacement, then the frequency of oscillation is $f_2$. Ignoring gravity and assuming motion only in the plane of the diagram, the value of $\\frac{f_1}{f_2}$ is:\n(A) 2\n(B) $\\sqrt{2}$\n(C) $\\sqrt{\\frac{5}{2}}$\n(D) $\\sqrt{\\frac{2}{5}}$",
+          "question_figure_description": "The question contains two figures. Figure 1 shows a rod hinged at point O, held vertically between two walls. A spring is connected at the midpoint and at the top-end (O') of the rod. Figure 2 shows the same rod hinged at point O, held vertically between two walls, but both springs are connected at the midpoint of the rod.",
+          "answer_text": "C"
+        },
+        {
+          "subject": "physics",
+          "question_number": 4,
+          "question_text": "Consider a star of mass $m_2$ kg revolving in a circular orbit around another star of mass $m_1$ kg with $m_1 >> m_2$. The heavier star slowly acquires mass from the lighter star at a constant rate of $\\gamma$ kg/s. In this transfer process, there is no other loss of mass. If the separation between the centers of the stars is $r$, then its relative rate of change $\\frac{1}{r} \\frac{dr}{dt}$ (in s$^{-1}$) is given by:\n(A) $-\\frac{3\\gamma}{2m_2}$\n(B) $-\\frac{2\\gamma}{m_2}$\n(C) $-\\frac{2\\gamma}{m_1}$\n(D) $-\\frac{3\\gamma}{2m_1}$",
+          "question_figure_description": null,
+          "answer_text": "MARKS TO ALL"
+        }
+      ],
+      "questions_count": 2,
+      "usage": {
+        "gemini/gemini-2.0-flash": {
+          "completion_tokens": 3220,
+          "prompt_tokens": 8206,
+          "total_tokens": 11426,
+          "completion_tokens_details": 0,
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0,
+            "text_tokens": 1498,
+            "image_tokens": 0
+          }
+        }
+      },
+      "processing_timestamp": "2025-05-28T16:11:31.667258"
+    },
+    {
+      "file_name": "p2_solutions-images-9.jpg",
+      "file_path": "p2_solutions-images-9.jpg",
+      "processing_status": "success",
+      "section_instructions": {
+        "rules": "This section contains FOUR (04) questions.\nEach question has FOUR options (A), (B), (C) and (D). ONE OR MORE THAN ONE of these four\noption(s) is (are) correct answer(s).\nFor each question, choose the option(s) corresponding to (all) the correct answer(s).\nAnswer to each question will be evaluated according to the following marking scheme:\nFull Marks\n: +4 ONLY if (all) the correct option(s) is (are) chosen;\nPartial Marks : +3 If all the four options are correct but ONLY three options are chosen;\nPartial Marks : +2 If three or more options are correct but ONLY two options are chosen, both of\nwhich are correct;\nPartial Marks : +1 If two or more options are correct but ONLY one option is chosen and it is a\ncorrect option;\nZero Marks : 0 If none of the options is chosen (i.e. the question is unanswered);\nNegative Marks: -2 In all other cases.\nFor example, in a question, if (A), (B) and (D) are the ONLY three options corresponding to correct\nanswers, then\nchoosing ONLY (A), (B) and (D) will get +4 marks;\nchoosing ONLY (A) and (B) will get +2 marks;\nchoosing ONLY (A) and (D) will get +2 marks;\nchoosing ONLY (B) and (D) will get +2 marks;\nchoosing ONLY (A) will get +1 mark;\nchoosing ONLY (B) will get +1 mark;\nchoosing ONLY (D) will get +1 mark;\nchoosing no option (i.e. the question is unanswered) will get 0 marks; and\nchoosing any other combination of options will get -2 marks.",
+        "section": 2
+      },
+      "questions": [
+        {
+          "subject": "physics",
+          "question_number": 5,
+          "question_text": "A positive point charge of 10-8 C is kept at a distance of 20 cm from the center of a neutral\nconducting sphere of radius 10 cm. The sphere is then grounded and the charge on the sphere is\nmeasured. The grounding is then removed and subsequently the point charge is moved by a distance\nof 10 cm further away from the center of the sphere along the radial direction. Taking\n$\\frac{1}{4\\pi\\epsilon_0}$ = 9 × 109 Nm²/C² (where $\\epsilon_0$ is the permittivity of free space), which of the following\nstatements is/are correct:\n\n(A) Before the grounding, the electrostatic potential of the sphere is 450 V.\n(B) Charge flowing from the sphere to the ground because of grounding is 5 × 10-9 С.\n(C) After the grounding is removed, the charge on the sphere is -5 × 10-9 С.\n(D) The final electrostatic potential of the sphere is 300 V.",
+          "question_figure_description": null,
+          "answer_text": "A, B, C"
+        }
+      ],
+      "questions_count": 1,
+      "usage": {
+        "gemini/gemini-2.0-flash": {
+          "completion_tokens": 739,
+          "prompt_tokens": 4085,
+          "total_tokens": 4824,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cached_tokens": null,
+            "text_tokens": 731,
+            "image_tokens": null
+          }
+        }
+      },
+      "processing_timestamp": "2025-05-28T16:11:39.139261"
+    }
+  ]
+}
